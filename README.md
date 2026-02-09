@@ -1,4 +1,4 @@
-# Skilled eLearning Landing Page
+# Modern Art Galerry
 
 <div align="center">
 
@@ -10,7 +10,7 @@
   <br />
   <br />
 
-  <a href="https://albertbabaiani.github.io/Skilled-eLearning-landing-page/">
+  <a href="https://albertbabaiani.github.io/Modern-Art-Gallery/">
     <img src="https://img.shields.io/badge/View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="View Live Demo" />
   </a>
   
@@ -24,17 +24,17 @@
 
 ## About The Project
 
-This is a responsive landing page for **"Skilled eLearning"**, a modern online course platform focused on high-demand skills like Animation, Design, and Business. The project features a vibrant, gradient-rich UI with a **mobile-first** architecture, ensuring a seamless experience from smartphones to wide-screen desktops.
+This project is a responsive, two-page website built with **semantic HTML5** and **SCSS**. The goal was to build a pixel-perfect implementation of a provided design, focusing on layout stability and maintainable CSS architecture.
 
-It demonstrates the use of semantic HTML5, complex CSS Grid layouts for the card section, and the `<picture>` element for art direction—serving different hero image crops depending on the device viewport.
+The site features a **Home page** and a **Location page**, both sharing consistent global styles and typography. It uses a mobile-first workflow, ensuring the layout adapts smoothly from a single-column stack on mobile devices to complex, asymmetrical grids on desktop screens.
 
 ### Key Features
 
-- **Mobile-First Workflow:** Styles are developed for mobile first, then enhanced for Tablet (`768px`) and Desktop (`1440px`) using min-width media queries.
-- **CSS Grid Layout:** A responsive grid system that transforms the course cards from a single column on mobile to a 2-column (Tablet) and 3-column (Desktop) layout.
-- **Art Direction:** Implementation of the `<picture>` tag to switch between specific image crops (mobile, tablet, desktop) and high-density versions (`@2x`, `@3x`) for sharper visuals.
-- **Modern CSS Syntax:** Utilizes native CSS nesting (or SCSS) and CSS Variables (`:root`) for easy theme management (colors, gradients, spacing).
-- **Interactive Elements:** Hover states with smooth transitions and gradient shifts for buttons and links.
+- **Multi-Page Navigation:** Seamless linking between the Landing Page and Location Page.
+- **Responsive Art Direction:** Uses the `<picture>` element to load different image crops for mobile, tablet, and desktop to maintain visual impact across devices.
+- **CSS Grid Layout:** Implements a non-standard grid for the gallery section that rearranges completely at the tablet (`768px`) and desktop (`1440px`) breakpoints.
+- **Interactive States:** Custom hover and focus states for buttons and social links, including accessible `:focus-visible` styles for keyboard users.
+- **Blend Modes:** Utilizes `mix-blend-mode: difference` on desktop headings to create dynamic text contrast against background images.
 
 ---
 
