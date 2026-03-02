@@ -383,10 +383,12 @@ footer {
 
   .gallery {
     grid-template-columns: 398fr 280fr;
-    grid-template-rows: 1fr 40rem;
+    grid-template-rows: 30rem 40rem;
     grid-template-areas:
       "img-2 img-3"
       "img-2 img-text";
+
+    justify-items: stretch;
 
     height: 72rem;
     gap: 1.1rem;
@@ -394,7 +396,7 @@ footer {
 
   .img-2 {
     grid-area: img-2;
-    height: 100%;
+    height: auto;
   }
 
   .img-3 {
@@ -503,6 +505,7 @@ footer {
   }
 
   .gallery {
+    grid-template-rows: 40rem 40rem;
     gap: 3rem;
   }
 
